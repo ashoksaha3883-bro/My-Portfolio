@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './component/home'
 import Footer from './component/footer'
-import Content from './component/content'
+import Content from './component/Content'
 
 const App = () => {
   return (
