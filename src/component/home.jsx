@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 
@@ -26,7 +25,7 @@ stats: [
     linkedin: "https://www.linkedin.com/",
     email: "mailto:you@example.com",
   },
-  cv: "/cv.pdf",
+ cv: "/Ashok-Kumar-Resume.pdf",
 };
 
 
@@ -928,7 +927,11 @@ export default function Home() {
               <path d="M5 12h14M13 6l6 6-6 6" />
             </svg>
           </a>
-          <a href={PROFILE.cv} className="btn ghost" download>
+          <a
+  href={PROFILE.cv}
+  className="btn ghost"
+  download="Ashok-Kumar-Resume.pdf"
+>
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 4v11M7 11l5 5 5-5M5 20h14" />
             </svg>
